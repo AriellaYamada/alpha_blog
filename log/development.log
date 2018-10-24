@@ -1115,3 +1115,291 @@ Processing by ArticlesController#index as HTML
   Rendered articles/index.html.erb within layouts/application (1.2ms)
   Rendered layouts/_navigation.html.erb (0.2ms)
 Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 13:58:10 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (535.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 830ms (Views: 816.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-99b5727a039f722531ce7b8ffe8387f1d69dd50d089279e11db06bceb64b362f.css?body=1" for 127.0.0.1 at 2018-10-24 13:58:12 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-10-24 13:58:12 -0300
+
+
+Started GET "/assets/the-xx-515573540000d57111abf76132351f0db16c335d5842622b53b26243f0227e5e.png" for 127.0.0.1 at 2018-10-24 13:58:12 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-24 13:58:20 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (121.5ms)
+  Rendered articles/new.html.erb within layouts/application (123.4ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 237ms (Views: 208.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 13:59:41 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:01:47 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:02:08 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial layouts/__navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views"
+):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: 	<%= render 'layouts/_navigation' %>
+    11: 	<%= yield %>
+    12: 
+    13: </body>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3730449650497336675_70041439687100'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:02:19 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:02:27 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-24 14:02:28 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.3ms)
+  Rendered articles/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-24 14:02:31 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.3ms)
+  Rendered articles/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:02:34 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:17:05 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `LINK_TO' for #<#<Class:0x0000000456aaa0>:0x007f6795e38628>
+Did you mean?  link_to):
+     5: 	<body>
+     6: 		<div class="jumbotron">
+     7: 		  <h1 class="display-4">ALPHA BLOG</h1>
+     8: 		  <%= LINK_TO "Sign up now", "#", class: "btn btn-primary btn-lg" %>
+     9: 		</div>
+    10: 
+    11: 	</body>
+  app/views/pages/home.html.erb:8:in `_app_views_pages_home_html_erb___3200897162465646949_70041436515120'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.5ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:17:15 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:17:43 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:35:34 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 1702ms (Views: 1701.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-1e00759da1d06f0a7f4e06a68139523e9dcd4bc166e17ca9d019d567718715b3.css?body=1" for 127.0.0.1 at 2018-10-24 14:35:35 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:37:56 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 1397ms (Views: 1396.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-758a48ba9e9795ca1bc1e588ad50a83dc8d6741c43e30466fdb4bd964cd52e60.css?body=1" for 127.0.0.1 at 2018-10-24 14:37:58 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:38:44 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 2718ms (Views: 2701.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-762a30af39ce5cf493d7eb8aa7112e6eb9ceb5ac61846967dc6db1bffad0b42c.css?body=1" for 127.0.0.1 at 2018-10-24 14:38:46 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:39:53 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	font-weight": expected ";", was ": bold;"):
+    2: <html>
+    3: <head>
+    4:   <title>AlphaBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:39
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3730449650497336675_70041356454120'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.1ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (81.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:40:16 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 2929ms (Views: 2928.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:40:19 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-a5b5b9247bbb2323fb8c81ceb02c795905605c51d3c2d264c7ad1b0928d7b62b.css?body=1" for 127.0.0.1 at 2018-10-24 14:40:19 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:41:55 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 2161ms (Views: 2159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-4df7ef80113382a5eeebb14420d49bc829c85d61b0363d5123d3d1f27b676402.css?body=1" for 127.0.0.1 at 2018-10-24 14:41:57 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:42:16 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:43:02 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 2028ms (Views: 2026.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-72b37442d41f0c8d02fa6bef9660688b1d472c19c81bf616da8f55ea11caaec4.css?body=1" for 127.0.0.1 at 2018-10-24 14:43:04 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:46:50 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 14:47:54 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2518ms (Views: 2517.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-efbd48d34bdfeb7b52613362632a793535f276eee265d19bfcfaa5cee3c236e7.css?body=1" for 127.0.0.1 at 2018-10-24 14:47:56 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-24 15:03:41 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2239ms (Views: 2238.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-eca0c4d1405aaa70ef3aba605eef5775ca543d92303822b14bb703316de472cb.css?body=1" for 127.0.0.1 at 2018-10-24 15:03:44 -0300
