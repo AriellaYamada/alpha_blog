@@ -4517,3 +4517,1567 @@ Processing by UsersController#show as HTML
   Rendered layouts/_navigation.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 104ms (Views: 100.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:28:49 -0300
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (46.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:35:34 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (33.3ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:36:20 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:36:22 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HClLCw2QsfyJziEe24l/Mo63WfBbqxptLZaSijrUIREOu87DKH8rmZJ7XoUUuCgPPD02KQlHQegdzyzZrZMXug==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 500 Internal Server Error in 42377ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views"
+):
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/path_set.rb:46:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/lookup_context.rb:121:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:46:in `render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:27:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:100:in `_render_template'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:83:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/rendering.rb:25:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:43:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:198:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:117:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:505:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `instrument'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:137:in `process'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:30:in `process'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:196:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:237:in `block in action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `each'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:817:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/conditionalget.rb:38:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/head.rb:13:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (24.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:37:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HClLCw2QsfyJziEe24l/Mo63WfBbqxptLZaSijrUIREOu87DKH8rmZJ7XoUUuCgPPD02KQlHQegdzyzZrZMXug==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views"
+):
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/path_set.rb:46:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/lookup_context.rb:121:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:46:in `render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:27:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:100:in `_render_template'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:83:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/rendering.rb:25:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:43:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:198:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:117:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:505:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `instrument'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:137:in `process'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:30:in `process'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:196:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:237:in `block in action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `each'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:817:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/conditionalget.rb:38:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/head.rb:13:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (23.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:37:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HClLCw2QsfyJziEe24l/Mo63WfBbqxptLZaSijrUIREOu87DKH8rmZJ7XoUUuCgPPD02KQlHQegdzyzZrZMXug==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+Completed 500 Internal Server Error in 213975ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views"
+):
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/path_set.rb:46:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/lookup_context.rb:121:in `find'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:46:in `render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/renderer/renderer.rb:27:in `render'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:100:in `_render_template'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:83:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/rendering.rb:25:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:43:in `render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:198:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:117:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:505:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/notifications.rb:164:in `instrument'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/abstract_controller/base.rb:137:in `process'
+  vendor/bundle/gems/actionview-4.2.6/lib/action_view/rendering.rb:30:in `process'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:196:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_controller/metal.rb:237:in `block in action'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `each'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/journey/router.rb:30:in `serve'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/routing/route_set.rb:817:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/conditionalget.rb:38:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/head.rb:13:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/gems/activerecord-4.2.6/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (20.1ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:40:39 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:40:41 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:40:54 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zpwT3DhobuYsG1Y/XNlIk7BOH4obZPny4MI4F/EatCLcDpYUHYf0gzeuKaST6B+uAsRwU0mIonfQm4ZEZl2CiQ==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "ariella@thevelops.com"]]
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 175ms (Views: 45.1ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:41:01 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6H1b9r5mOBfKD2Q1FCeYu8akPLaSn6Y9mLoCjV4TUhj6794+m4mictG6G67bFs+GdC5Tb8Bz/bio47zeyVRksw==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users.2
+Completed 302 Found in 74ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users.2" for 127.0.0.1 at 2018-10-25 11:41:01 -0300
+Processing by UsersController#index as 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 5]]
+  Rendered users/index.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 69.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:41:21 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:41:28 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p/MZaxpAtkuG8lsW8kyhKUfJABj2uTjxc8sUiwcOI+W1YZyjP68sLp1HJI09ffYU9UNvwaRVY3RDkqrYkEkVTg==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "ariella@thevelops.com"]]
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 124ms (Views: 30.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:46:37 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 131ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 11:46:39 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hu1acF6mUyK0YneeIgIHqnx3X7Lc4kUDmMTwSP2L0wqUf9+4e0nJR6/XCAXtM1CXzv0wa44OHoaonU4baszloQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 11:46:39 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 127ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 11:46:48 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:47:10 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:47:17 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o0cuBl5gtjJR2QSu89f+Om8okTRTs9j4E2jWituCC9Kx1avOe48sV0psezU85qkH3aL+7QFfg30jMWjZTMU9eQ==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users.2
+Completed 302 Found in 146ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/users.2" for 127.0.0.1 at 2018-10-25 11:47:17 -0300
+Processing by UsersController#index as 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 5]]
+  Rendered users/index.html.erb within layouts/application (24.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 84ms (Views: 82.3ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 11:47:19 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aM3EEpOjkvrqnWl3S7FWEtTYcOPzBSdGy2EVMQk2ZT56X0HatkwIn/EoFuyEgAEvZlIfOqHpfMP7OKtinnFTlQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 11:47:19 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 11:47:57 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 11:48:03 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iWYO+Efapls5qPV+g6y+jrz2rN5bAddsD9X2eOSqPaWb9IswYjU8PiIdiuVMnemzDnzDBwntjOk/jEgrc+0LDg==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 71ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 11:48:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0  [["user_id", 2]]
+  Rendered articles/_article.html.erb (6.3ms)
+  Rendered users/show.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 58.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:05:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (4.4ms)
+  Rendered users/show.html.erb within layouts/application (5.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 43.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:09:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (9.4ms)
+  Rendered users/show.html.erb within layouts/application (15.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 92.1ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 12:09:31 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pSZQHRTqIv72hJ0kp4MI6cVScefAHqZ7oiGhL27odru3tNXVMQW4m+0x4r9osl/Ud9gePpLy/f6SeB98+a9AEA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:09:32 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:09:34 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-10-25 12:09:35 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.erb (22.6ms)
+  Rendered users/_form.html.erb (36.1ms)
+  Rendered users/new.html.erb within layouts/application (39.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:09:36 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-10-25 12:09:40 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered users/_form.html.erb (6.1ms)
+  Rendered users/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-25 12:09:53 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hnRElkMkfGSNiGbb9kLetXyp4zht6Tslj7AOpBzvklKU5sFeZsvmAZY9GUA5c4mIziOM4T8FYKC/6bD3i6ik+Q==", "user"=>{"username"=>"newuser", "email"=>"newuser@email.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER('newuser') LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('newuser@email.com') LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "newuser"], ["email", "newuser@email.com"], ["password_digest", "$2a$10$DIaRuwUUrq4KqbuMBqIXCOLWsDvdmEaOWv0HZpCBzYIKHLpIr.JTu"], ["created_at", "2018-10-25 15:09:54.035603"], ["updated_at", "2018-10-25 15:09:54.035603"]]
+  [1m[36m (90.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 221ms (ActiveRecord: 92.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:09:54 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (12.0ms)
+  Rendered articles/index.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 94.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:09:58 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-10-25 12:10:00 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered users/_form.html.erb (4.6ms)
+  Rendered users/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:10:00 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 12:10:13 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RDgiMmYjbGLnyHMxfSe+Z4K1C91K52KFNcguaBfNTodWqqf6Q8z2B/x9DKqyFulaMD9kBBgLOQAFkZA7gIp4LA==", "session"=>{"email"=>"newuser@email.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "newuser@email.com"]]
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 119ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-10-25 12:10:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 6]]
+  Rendered articles/_article.html.erb (0.5ms)
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-10-25 12:15:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 6]]
+  Rendered articles/_article.html.erb (0.7ms)
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 38.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/6/edit" for 127.0.0.1 at 2018-10-25 12:15:55 -0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered shared/_errors.html.erb (0.0ms)
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered users/edit.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-10-25 12:15:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 6]]
+  Rendered articles/_article.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-10-25 12:21:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 6]]
+  Rendered articles/_article.html.erb (0.4ms)
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:21:38 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_article.html.erb (9.7ms)
+  Rendered articles/index.html.erb within layouts/application (12.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-25 12:21:41 -0300
+Processing by ArticlesController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered articles/_form.html.erb (41.0ms)
+  Rendered articles/new.html.erb within layouts/application (61.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 204ms (Views: 202.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-25 12:21:42 -0300
+Processing by ArticlesController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered articles/_form.html.erb (4.0ms)
+  Rendered articles/new.html.erb within layouts/application (5.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-10-25 12:26:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered articles/_form.html.erb (6.9ms)
+  Rendered articles/new.html.erb within layouts/application (10.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 130.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-25 12:26:47 -0300
+Processing by UsersController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (10.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 12:27:34 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mo6OaMCNet0tvHnCuhD+4DVb7nI0UAJ6BX2cLaYeDpiIHAug5WLguDYJBll1Iandh9GBq2a8Wf81JCJ+MVk4Mw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:27:34 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:27:35 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-25 12:27:36 -0300
+Processing by UsersController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 147ms (Views: 141.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:27:37 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (23.1ms)
+  Rendered articles/index.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 127.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:27:39 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 12:27:46 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1FBFTeGdRmAbcNJyxSldOWKwC4NyWfZWWaiCm0iCJMLGwsCFxHLcBQDFrekKGAoE0DpkWiC1rdNp8TzI38USaQ==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 117ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:27:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (4.4ms)
+  Rendered users/show.html.erb within layouts/application (7.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:28:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (4.5ms)
+  Rendered users/show.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:28:51 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views/pages/home.html.erb:8: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+...p now", "#", signup_path class: "btn btn-danger btn-lg btn-x...
+...                               ^):
+  app/views/pages/home.html.erb:8: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:29:00 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ariella/Documents/Cursos/RubyOnRails/alpha-blog/app/views/pages/home.html.erb:8: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+...p now", "#", signup_path class: "btn btn-danger btn-lg btn-x...
+...                               ^):
+  app/views/pages/home.html.erb:8: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:29:08 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+     5: 	<body>
+     6: 		<div class="center jumbotron">
+     7: 		  <h1 class="display-4">ALPHA BLOG</h1>
+     8: 		  <%= link_to "Sign up now", "#", signup_path, class: "btn btn-danger btn-lg btn-xlarge" %>
+     9: 		</div>
+    10: 
+    11: 	</body>
+  app/views/pages/home.html.erb:8:in `_app_views_pages_home_html_erb__2912539416884477226_69821328518080'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:29:31 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-10-25 12:29:32 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered users/_form.html.erb (5.5ms)
+  Rendered users/new.html.erb within layouts/application (7.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:30:45 -0300
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:30:45 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (10.1ms)
+  Rendered articles/index.html.erb within layouts/application (13.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:30:49 -0300
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:30:49 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (5.8ms)
+  Rendered articles/index.html.erb within layouts/application (9.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:34:33 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (7.7ms)
+  Rendered articles/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 12:34:39 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YDEJUhaFjFQdIT414ZKqOOKdI6Z7OGrOlag8kBfa6fdyo4yaM2oWMQaUQa4uo/0FUBdMfynUMUul8YLDgJ3fXA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:34:39 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:34:41 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (2.9ms)
+  Rendered articles/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:34:48 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 12:34:57 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L8QbTKR1DjjSkwQlAvWlDAMEYJzy9j3epsuHHgLFKlg9Vp6EgZqUXckme77NxPIxsY4PRaAaZluWkjlNlYIc8w==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 73ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:34:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_article.html.erb (1.9ms)
+  Rendered users/show.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:35:00 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (9.4ms)
+  Rendered articles/index.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:41:47 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_article.html.erb (11.6ms)
+  Rendered articles/index.html.erb within layouts/application (19.8ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 96ms (Views: 93.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/6" for 127.0.0.1 at 2018-10-25 12:41:50 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:41:52 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (12.5ms)
+  Rendered articles/index.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2018-10-25 12:41:53 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 88.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-25 12:42:59 -0300
+Processing by UsersController#index as HTML
+  [1m[35m (1.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (23.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 80.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:43:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0  [["user_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (3.9ms)
+  Rendered users/show.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 12:43:04 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"t3t9woFa8M3S5FVLPU3Xn0wUvJVJMBCskEn5Mr3Z9kml6fgKpLVqqMlRKtDyfICi/p7TTBvcSymgEEdhKp7A4g=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:43:04 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-25 12:43:07 -0300
+Processing by UsersController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (20.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 114ms (Views: 110.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:43:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (4.0ms)
+  Rendered users/show.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-10-25 12:43:11 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-25 12:43:18 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wn6PLJwjmMJy3ytYMOv2wW7JLIHNYfx9ovSzib+hWL1m3/0l58UBhJ+Azav8vjmtzFLa1XZ3HTG0mydsbmzyQ==", "session"=>{"email"=>"ariella@thevelops.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ariella@thevelops.com"]]
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 147ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:43:19 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_article.html.erb (2.9ms)
+  Rendered users/show.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-25 12:46:09 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/Lokt8paYIinPGnTckzwC8MiAPpXrxUYNmFgewIw10LuKKF/77X67byJFki9fac2cahvIwVDTp0GON4olXfh6Q=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:46:09 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:46:15 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.7ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/_article.html.erb (22.0ms)
+  Rendered articles/index.html.erb within layouts/application (27.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 71.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles5/edit" for 127.0.0.1 at 2018-10-25 12:46:17 -0300
+
+ActionController::RoutingError (No route matches [GET] "/articles5/edit"):
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/gems/rack-1.6.10/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (154.8ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.7ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.4ms)
+
+
+Started GET "/articles/5/edit" for 127.0.0.1 at 2018-10-25 12:46:24 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 5]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:46:24 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:46:45 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2018-10-25 12:46:55 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 4]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:46:55 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2018-10-25 12:47:05 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered articles/show.html.erb within layouts/application (16.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2018-10-25 12:47:09 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 4]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:47:09 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/3/edit" for 127.0.0.1 at 2018-10-25 12:54:47 -0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_same_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:54:47 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-10-25 12:54:57 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_article.html.erb (5.6ms)
+  Rendered articles/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-25 12:54:58 -0300
+Processing by UsersController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-10-25 12:54:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered articles/_article.html.erb (1.8ms)
+  Rendered users/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2018-10-25 12:55:03 -0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_same_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-25 12:55:03 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
