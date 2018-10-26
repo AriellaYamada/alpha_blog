@@ -7874,3 +7874,80 @@ Processing by CategoriesController#index as HTML
   Rendered layouts/_navigation.html.erb (0.9ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 96ms (Views: 92.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2018-10-26 10:27:24 -0300
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered categories/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 64.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2018-10-26 10:27:27 -0300
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QbczLSsWVCl1TCni5WuXvK0wbjq8IDaxq/mSK65GBJpMHlOLzW/jKM2BPdIV0mwxTypza3DJiWoix9Q1YQxZKg==", "category"=>{"name"=>"asdsdsd"}, "commit"=>"Create Category"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mCategory Exists (0.3ms)[0m  SELECT  1 AS one FROM "categories" WHERE "categories"."name" = 'asdsdsd' LIMIT 1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "asdsdsd"], ["created_at", "2018-10-26 13:27:27.800673"], ["updated_at", "2018-10-26 13:27:27.800673"]]
+  [1m[35m (69.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/categories
+Completed 302 Found in 94ms (ActiveRecord: 73.8ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2018-10-26 10:27:27 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCategory Load (0.5ms)[0m  SELECT  "categories".* FROM "categories" LIMIT 5 OFFSET 0
+  Rendered categories/index.html.erb within layouts/application (11.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 102.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/categories?page=2" for 127.0.0.1 at 2018-10-26 10:27:30 -0300
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "categories"
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT  "categories".* FROM "categories" LIMIT 5 OFFSET 5[0m
+  Rendered categories/index.html.erb within layouts/application (14.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 111.7ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-10-26 10:27:40 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iBdttm+8VfUYnAjpAVm6kTNI7snscyKvIhtpX/bF/KCFvg0QicXi9KBRHNnx4EEc0VLzmCCanXSrJS9BOY+hEA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-26 10:27:40 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2018-10-26 10:27:45 -0300
+Processing by CategoriesController#new as HTML
+Redirected to http://localhost:3000/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2018-10-26 10:27:45 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCategory Load (0.9ms)[0m  SELECT  "categories".* FROM "categories" LIMIT 5 OFFSET 0
+  Rendered categories/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 106.8ms | ActiveRecord: 1.5ms)
